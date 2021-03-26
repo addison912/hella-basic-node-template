@@ -1,0 +1,21 @@
+{
+  "name": "hella-basic-node-template",
+  "version": "1.0.0",
+  "description": "Barbones starting point for Node/Express projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "parcel src/*.html",
+    "build": "parcel build --no-cache src/*.html --dist-dir ./build/",
+    "clear": "rm -rf dist .parcel-cache/ build"
+  },
+  "keywords": [],
+  "author": "Addison Moore",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
